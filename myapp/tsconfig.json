@@ -1,0 +1,11 @@
+
+  {
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"compilerOptions": {
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*", "node_modules/svelte/types/runtime"]
+  }
